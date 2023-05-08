@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/stratosskyengweb-regular.woff2") format("woff2");
+}
+
+body {
+    background-color: #004980;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.choice-box {
+    align-items: center;
+    width: 480px;
+    height: 459px;
+    display: flex;
+    flex-direction: column;
+    background-color: #C2F5FF;
+    border-radius: 12px;
+}
+
+.title {
+    text-align: center;
+    width: 208px;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #004980;
+    margin-bottom: 48px;
+    margin-top: 52px;
+}
+
+.complex {
+    display: flex;
+    gap: 26px;
+    margin-bottom: 67px;
+}
+
+.complex__num {
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    align-items: center;
+    color: #0080C1;
+    width: 98px;
+    height: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-btn {
+    border: none;
+    background: #7AC100;
+    border-radius: 12px;
+    width: 246px;
+    height: 50px;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
