@@ -13,15 +13,24 @@
             <h1 class="title">
                 Выбери сложность
             </h1>
-            <div class="complex">
-                <div class="complex__num">1</div>
+            <form class="complex">
+                <!-- <div class="complex__num">1</div>
                 <div class="complex__num">2</div>
-                <div class="complex__num">3</div>
-            </div>
-            <button class="start-btn">
+                <div class="complex__num">3</div> -->
+                <input name="diff" id="difficultChoice1" class="complex__num" type="radio" value="1">
+                <label for="difficultChoice1">1</label>
+                <input name="diff" id="difficultChoice2" class="complex__num" type="radio" value="2">
+                <label for="difficultChoice2">2</label>
+                <input name="diff" id="difficultChoice3" class="complex__num" type="radio" value="3">
+                <label for="difficultChoice3">3</label>
+            </form>
+            <button id="startBtn" class="start-btn">
                 Старт
             </button>
         </div>
     </div>
+
+    <script type="module" src="./script.js"></script>
+    <script type="module" src="./test-relocte.js"></script>
 </body>
 </html>
