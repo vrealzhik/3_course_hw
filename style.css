@@ -101,3 +101,71 @@ body {
     border: 3px solid #7AC100;
     color: #7AC100;
 }
+
+.center {
+    padding-left: calc(50% - 512px);
+    padding-right: calc(50% - 512px);
+}
+
+.header__second-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin-bottom: 52px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.card__back {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 95px;
+    height: 133px;
+    background-image: url(img/рубашка.svg);
+    margin-bottom: 12px;
+}
+  
+.restart_btn {
+    background: #7AC100;
+    border-radius: 12px;
+    width: 246px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+}
+
+.restart_btn:hover{
+    border: 3px solid #02922d; 
+}
+
+.timer {
+    width: 155px;
+    height: 91px;
+}
+
+.timer__number {
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.timer__text {
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF; 
+    padding-left: 90px;
+}

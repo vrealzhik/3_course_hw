@@ -15,5 +15,5 @@ startElement.addEventListener("click", () =>{
         return;
     }
     console.log (selectedDiff.diff);
-    window.location.href = 'test-relocate.html'
+    window.location.href = 'second_page.html'
 })
