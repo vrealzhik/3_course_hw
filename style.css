@@ -4,11 +4,11 @@
 }
 
 @font-face {
-    font-family: "StratosSkyeng";
+    font-family: 'StratosSkyeng';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("./fonts/stratosskyengweb-regular.woff2") format("woff2");
+    src: url('./fonts/stratosskyengweb-regular.woff2') format('woff2');
 }
 
 body {
@@ -29,7 +29,7 @@ body {
     height: 459px;
     display: flex;
     flex-direction: column;
-    background-color: #C2F5FF;
+    background-color: #c2f5ff;
     border-radius: 12px;
 }
 
@@ -68,21 +68,21 @@ body {
     box-sizing: border-box;
 }
 
-.complex input[type="radio"] {
+.complex input[type='radio'] {
     display: none;
 }
 
-.complex input[type="radio"]:checked+label {
-    border: 5px solid #0080C1;
+.complex input[type='radio']:checked + label {
+    border: 5px solid #0080c1;
 }
 
 .complex label:hover {
-    border: 5px solid #7db7d4
+    border: 5px solid #7db7d4;
 }
 
 .start-btn {
     border: none;
-    background: #7AC100;
+    background: #7ac100;
     border-radius: 12px;
     width: 246px;
     height: 50px;
@@ -92,12 +92,80 @@ body {
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     cursor: pointer;
 }
 
 .start-btn:hover {
     background-color: white;
-    border: 3px solid #7AC100;
-    color: #7AC100;
+    border: 3px solid #7ac100;
+    color: #7ac100;
+}
+
+.center {
+    padding-left: calc(50% - 512px);
+    padding-right: calc(50% - 512px);
+}
+
+.header__second-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin-bottom: 52px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.card__back {
+    background: #ffffff;
+    border-radius: 4px;
+    width: 95px;
+    height: 133px;
+    background-image: url(img/рубашка.svg);
+    margin-bottom: 12px;
+}
+
+.restart_btn {
+    background: #7ac100;
+    border-radius: 12px;
+    width: 246px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+}
+
+.restart_btn:hover {
+    border: 3px solid #02922d;
+}
+
+.timer {
+    width: 155px;
+    height: 91px;
+}
+
+.timer__number {
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #ffffff;
+}
+
+.timer__text {
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 300;
+    color: #ffffff;
+    padding-left: 90px;
 }
